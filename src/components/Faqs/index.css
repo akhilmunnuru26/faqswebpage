@@ -1,0 +1,38 @@
+/* Write your code here. */
+* {
+  font-family: 'Roboto';
+}
+.faqs-bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+}
+
+.app-name {
+  color: #cb8805;
+  font-size: 40px;
+  text-align: center;
+}
+
+.faq-list-container {
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .faqs-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .app-container {
+    padding: 40px;
+    max-width: 768px;
+  }
+}
